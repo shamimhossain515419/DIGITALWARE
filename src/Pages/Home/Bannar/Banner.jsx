@@ -21,7 +21,7 @@ const Banner = () => {
                                    <p className=" my-2  text-lg  ">We help your businesses to grow by promoting your brand, creating dazzling contents & reaching your target audience through online platforms such as YouTube, Tiktok, Instagram, Facebook & others. empower online presence</p>
                               </div>
 
-                              <div  className=" my-4  inline-block text-2xl font-medium  text-[#0a0b0b] bg-[#3ad89f]  px-6 py-2 rounded-2xl">  <Link>My resume</Link> </div>
+                              <div   className=" my-4  inline-block text-2xl font-medium  text-[#0a0b0b] bg-[#3ad89f]  px-6 py-2 rounded-2xl">  <Link target="_blank" to={'https://drive.google.com/file/d/1X9q9tWQ9eIHIu8ad-24FvC0jEDx9F52s/view?usp=sharing'}> My resume</Link> </div>
                          </div>
                          <div>
                           <img className="  h-[600px]  w-full" src={BannerImage}   alt="" />
