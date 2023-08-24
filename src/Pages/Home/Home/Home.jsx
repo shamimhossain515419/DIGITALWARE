@@ -4,6 +4,7 @@ import Banner from "../Bannar/Banner";
 import Faqs from "../FAQs/Faqs";
 import Features from "../Features/Features";
 import Footer from "../Footer/Footer";
+import MyTime from "../Mytime/Mytime";
 import Services from "../Services/Services";
 
 
@@ -24,6 +25,11 @@ const Home = () => {
                <div className="  my-10">
                     <Services></Services>
                </div>
+
+               <div className="  my-10">
+                    <MyTime></MyTime>
+               </div>
+
                <div className="  my-10">
                     <Faqs></Faqs>
                </div>

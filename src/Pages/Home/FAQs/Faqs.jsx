@@ -19,10 +19,10 @@ const Faqs = () => {
      ];
      return (
           <div>
-
-               <div>
-                    <h1 className=' text-center text-4xl font-bold my-10 text-[#95A0FF]'> FAQS</h1>
-               </div>
+ <div className=" text-center  my-14">
+                         <h1 className="   tracking-widest text-4xl text-[#95A0FF] font-semibold my-4  uppercase  "> FAQS</h1>
+                    </div>
+               
                <Accordions items={accordionItems}></Accordions>
           </div>
      );
