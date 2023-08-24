@@ -6,6 +6,7 @@ import Features from "../Features/Features";
 import Footer from "../Footer/Footer";
 import MyTime from "../Mytime/Mytime";
 import Services from "../Services/Services";
+import Testomonial from "../Testtomonial/Testomonial";
 
 
 
@@ -15,14 +16,14 @@ const Home = () => {
 
                <Banner></Banner>
 
-               <div className="  my-10">
+               <div className="my-10">
                     <MyDeatils></MyDeatils>
                </div>
-               <div className="  my-10">
+               <div id="Features" className="  my-10">
                     <Features></Features>
                </div>
 
-               <div className="  my-10">
+               <div id="Services" className="  my-10">
                     <Services></Services>
                </div>
 
@@ -30,10 +31,11 @@ const Home = () => {
                     <MyTime></MyTime>
                </div>
 
-               <div className="  my-10">
+               <div id="FAQ" className="  my-10">
                     <Faqs></Faqs>
                </div>
-               <div className="  my-10">
+               <Testomonial></Testomonial>
+               <div id="contact" className="  my-10">
                     <Contact></Contact>
                </div>
 

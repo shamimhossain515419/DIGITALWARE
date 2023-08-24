@@ -5,11 +5,13 @@ const Manubar = ({ setOpen }) => {
           <div>
                <hr />
                <div className=' space-y-3 flex   flex-col '>
-                    <Link to={'#'}> Features</Link>
-                    <Link to={'#Services'}> Services</Link>
-                    <Link to={'#Testimonials'}> Testimonials</Link>
-                    <Link to={'#FAQ'}> FAQ</Link>
-                    <Link to={'/contact'}> Contact Us</Link>
+                    <div onClick={() => setOpen(true)}>
+                         <a href={'#Features'}> Features</a>
+                    </div>
+                    <a onClick={() => setOpen(true)} href={'#Services'}> Services</a>
+                    <a onClick={() => setOpen(true)} href={'#Testimonials'}> Testimonials</a>
+                    <a onClick={() => setOpen(true)} href={'#FAQ'}> FAQ</a>
+                    <a onClick={() => setOpen(true)} href={'#contact'}> Contact Us</a>
                </div>
           </div>
      );

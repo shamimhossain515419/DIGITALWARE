@@ -19,15 +19,15 @@ const Navbar = () => {
                          <div className=' flex justify-between items-center'>
                               <div className=' flex  items-center gap-4'>
                                     <img src={logo} className=' h-12 hidden md:block ' alt="" />
-                                  <Link to={'/'}> <h1 className='  py-2 font-semibold  text-2xl text-color   uppercase'> DIGITAL WARE </h1></Link>
+                                  <a  href="#"> <h1 className='  py-2 font-semibold  text-2xl text-color   uppercase'> DIGITAL WARE </h1></a>
                               
                               </div>
                               <div className=' hidden md:block  space-x-5'>
-                                   <Link  to={'#'}> Features</Link>
-                                   <Link  to={'#Services'}> Services</Link>
-                                   <Link  to={'#Testimonials'}> Testimonials</Link>
-                                   <Link  to={'#FAQ'}> FAQ</Link>
-                                   <Link  to={'/contact'}> Contact Us</Link>
+                                   <a href={'#Features'}> Features</a>
+                                   <a href={'#Services'}> Services</a>
+                                   <a href={'#Testimonials'}> Testimonials</a>
+                                   <a href={'#FAQ'}> FAQ</a>
+                                   <a href={'#contact'}> Contact Us</a>
                               </div>
 
 

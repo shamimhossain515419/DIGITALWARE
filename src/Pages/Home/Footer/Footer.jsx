@@ -1,10 +1,10 @@
 
-import { BsFacebook, BsInstagram } from 'react-icons/bs'
+import { BsFacebook, BsInstagram, BsPinterest } from 'react-icons/bs'
 import { AiFillLinkedin, AiFillYoutube, AiOutlineTwitter } from 'react-icons/ai'
 import './Footer.css'
 import { Link } from 'react-router-dom';
 import Container from '../../../Component/Contaner';
-import Logo  from '../../../assets/PhotoRoom-20230823_222501.png'
+import Logo from '../../../assets/PhotoRoom-20230823_222501.png'
 const Footer = () => {
 
      return (
@@ -17,19 +17,19 @@ const Footer = () => {
                                    <h1 className=' text-xl font-semibold'> DIGITAL WARE</h1>
                               </div>
 
-                              <div className='  mt-9 clear-left flex items-center  gap-8'>
-                                   <Link to={'https://www.facebook.com/profile.php?id=61550718710075&mibextid=ZbWKwL'} target='_blank' className='footershadow  hover:bg-[#ff014df1] inline-block rounded-md  p-4' >
+                              <div className='  mt-9 clear-left flex items-center flex-wrap  gap-8'>
+                                   <Link to={'https://www.facebook.com/profile.php?id=61550718710075&mibextid=ZbWKwL'} target='_blank' className='footershadow  hover:bg-[#6782d9f1] inline-block rounded-md  p-4' >
                                         <BsFacebook className=' text-[#0792fc] cursor-pointer ' size={30}></BsFacebook>
                                    </Link>
-                                   <Link target='_blank' to={"https://www.youtube.com/@DIGITALWARE-nw6bo"} className='footershadow  hover:bg-[#ff014df1] inline-block rounded-md  p-4' >
+                                   <Link target='_blank' to={"https://www.youtube.com/@DIGITALWARE-nw6bo"} className='footershadow  hover:bg-[#6782d9f1] inline-block rounded-md  p-4' >
                                         <AiFillYoutube className=' text-[#ee07d3] cursor-pointer ' size={30}></AiFillYoutube>
                                    </Link>
-                                   <Link target='_blank' to={'https://www.linkedin.com/in/digital-ware-257845289?fbclid=IwAR0-bfBkDs-d8RH9hsHy-AXlz3zdo5QOj-4sOcbOfQ9z8s_0KVCgJvHTs1M'} className='footershadow  hover:bg-[#ff014df1] inline-block rounded-md  p-4' >
+                                   <Link target='_blank' to={'https://www.linkedin.com/in/digital-ware-257845289?fbclid=IwAR0-bfBkDs-d8RH9hsHy-AXlz3zdo5QOj-4sOcbOfQ9z8s_0KVCgJvHTs1M'} className='footershadow  hover:bg-[#6782d9f1] inline-block rounded-md  p-4' >
                                         <AiFillLinkedin className=' text-[#0A66C2] cursor-pointer ' size={30}></AiFillLinkedin>
                                    </Link >
-                                   <Link to={'https://twitter.com/Mehedihasan3704?fbclid=IwAR0pLWIWjew-Zryh1QqdRWGttMX37foB6BFFwHYMy3wtVS6Ean9N29rtYYg'} target='_blank' className='footershadow  hover:bg-[#ff014df1] inline-block rounded-md  p-4' >
-                                        <AiOutlineTwitter className=' text-[#0b82f2] cursor-pointer ' size={30}></AiOutlineTwitter>
-                                   </Link >
+                                   <Link target='_blank' to={"https://l.facebook.com/l.php?u=https%3A%2F%2Fpin.it%2F6ywMRch%3Ffbclid%3DIwAR3cHHsJJCL5rXKKYIbusy3ZIy7HQ8VNRkqXJoc0589U0qLNGr4OslM-hLM&h=AT03yc8xaJfuZyOg3xepIimJPVgStisrz_63t8pRn_s6vdJGMoUzx7cYCm9xOWSs0uN_5gufh0ci020GQGWl7S1K6TvX8vyhRosSrktgZayjMDLr1N5U8Jjun52XexZ1nxqthA"} className='footershadow  hover:bg-[#6782d9f1]  hover:-translate-y-2 duration-300 inline-block rounded-md  p-4' >
+                                        <BsPinterest className=' text-[#ee07d3] cursor-pointer ' size={30}></BsPinterest>
+                                   </Link>
                               </div>
 
                          </div>

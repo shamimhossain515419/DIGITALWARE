@@ -3,7 +3,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 
 import './Contact.css'
 import { Link } from "react-router-dom";
-import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsPinterest } from "react-icons/bs";
 import { useRef } from "react";
 
 import Swal from "sweetalert2";
@@ -54,10 +54,10 @@ const Contact = () => {
                                              <Link to={'https://www.facebook.com/profile.php?id=61550718710075&mibextid=ZbWKwL'} target='_blank' className='footershadow   hover:-translate-y-2 duration-300 inline-block rounded-md  p-4' >
                                                   <BsFacebook className=' text-[#0792fc] cursor-pointer ' size={30}></BsFacebook>
                                              </Link>
-                                             <Link target='_blank' to={"https://www.instagram.com"} className='footershadow   hover:-translate-y-2 duration-300 inline-block rounded-md  p-4' >
-                                                  <BsInstagram className=' text-[#ee07d3] cursor-pointer ' size={30}></BsInstagram>
+                                             <Link target='_blank' to={"https://l.facebook.com/l.php?u=https%3A%2F%2Fpin.it%2F6ywMRch%3Ffbclid%3DIwAR3cHHsJJCL5rXKKYIbusy3ZIy7HQ8VNRkqXJoc0589U0qLNGr4OslM-hLM&h=AT03yc8xaJfuZyOg3xepIimJPVgStisrz_63t8pRn_s6vdJGMoUzx7cYCm9xOWSs0uN_5gufh0ci020GQGWl7S1K6TvX8vyhRosSrktgZayjMDLr1N5U8Jjun52XexZ1nxqthA"} className='footershadow   hover:-translate-y-2 duration-300 inline-block rounded-md  p-4' >
+                                                  <BsPinterest className=' text-[#ee07d3] cursor-pointer ' size={30}></BsPinterest>
                                              </Link>
-                                             <Link target='_blank' to={'https://www.linkedin.com/in'} className='footershadow   hover:-translate-y-2 duration-300 inline-block rounded-md  p-4' >
+                                             <Link target='_blank' to={'https://www.linkedin.com/in/digital-ware-257845289?fbclid=IwAR2qtwMKalIMPEpCyiXVrkg-uk4dfi3we4mn8GQpc4R274trnl5BAjLmams'} className='footershadow   hover:-translate-y-2 duration-300 inline-block rounded-md  p-4' >
                                                   <AiFillLinkedin className=' text-[#0A66C2] cursor-pointer ' size={30}></AiFillLinkedin>
                                              </Link >
                                         </div>
