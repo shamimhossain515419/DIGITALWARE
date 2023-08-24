@@ -8,10 +8,10 @@ const Banner = () => {
                <div className="  mt-10">
                     <div className=" py-10 grid md:grid-cols-2 items-center gap-7 md:min-h-[900px] ">
                          <div>
-                              <button className=" bg-[#66AEFF] px-4 py-1 rounded-lg  my-6 leading-8"> Creative Marketing</button>
+                              <button className=" bg-[#66AEFF] px-4 py-1 rounded-lg  my-6 leading-8"> Digital Marketing</button>
                               <div>
                                    <h1 className="    leading-tight   text-2xl md:text-5xl font-bold my-2 ">
-                                        Creative Marketing
+                                        Digital Marketing
 
                                         Empower Your Online Presence on
                                         YouTube & TikTok!</h1>

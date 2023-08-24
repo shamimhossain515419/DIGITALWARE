@@ -1,9 +1,9 @@
 import Container from "../../../Component/Contaner";
 
-import { FaGoogle, FaVideo } from 'react-icons/fa'
-import { AiFillYoutube } from 'react-icons/ai'
-import { BsFillPencilFill } from 'react-icons/bs'
-import { GoPackageDependencies } from 'react-icons/go'
+
+
+import ServicesCard from "./servicesCard";
+import ServicesData from "./servicesData";
 const Services = () => {
      return (
           <div className=" py-10">
@@ -14,13 +14,13 @@ const Services = () => {
 
                     <div className=" md:m-20">
                          <div className=" grid md:grid-cols-3 gap-10 ">
+                              {
+                                   ServicesData?.map((item,index) => <ServicesCard key={index}  Card={item}></ServicesCard>)
+                              }
+                             
 
-                              <div>
-                                   <FaVideo className=" block text-center mx-auto text-[#95A0FF]" size={45}></FaVideo>
-                                   <h1 className="  text-3xl  text-[#95A0FF] my-5 font-semibold  "> Video Editing</h1>
-                                   <p className=" text-lg font-normal my-2">Are you tired of having no audience on your YouTube Channel? Don’t worry! We will help you create bedazzling  long-form and short-form videos which will increase your views and sales.</p>
-                              </div>
-                              <div>
+
+                              {/* <div>
                                    <AiFillYoutube className=" block text-center mx-auto text-[#95A0FF]" size={45}></AiFillYoutube>
                                    <h1 className="  text-3xl  text-[#95A0FF] my-5 font-semibold  "> Thumbnail Design</h1>
                                    <p className=" text-lg font-normal my-2">Thumbnails are the main hack to increase your CTR. Our designers will help you by creating striking thumbnails to generate more views.</p>
@@ -32,7 +32,7 @@ const Services = () => {
                               </div>
                               <div>
                                    <BsFillPencilFill className=" block text-center mx-auto text-[#95A0FF]" size={45}></BsFillPencilFill>
-                                   
+
                                    <h1 className="  text-3xl  text-[#95A0FF] my-5 font-semibold  ">
                                         Management</h1>
                                    <p className=" text-lg font-normal my-2">Are you too busy to take care of your online brand? We will schedule and manage your posts as well as organize them while you continue with your business.</p>
@@ -43,10 +43,10 @@ const Services = () => {
                                    <p className=" text-lg font-normal my-2">No time to manage your online portfolio? We will take work for your entire brand from start to finish by scheduling, SEO, thumbnail design, video editing and more.</p>
                               </div>
                               <div>
-                                   <FaVideo className=" block text-center mx-auto text-[#95A0FF]" size={45}></FaVideo>
+                                   <BsHeadphones className=" block text-center mx-auto text-[#95A0FF]" size={45}></BsHeadphones>
                                    <h1 className="  text-3xl  text-[#95A0FF] my-5 font-semibold  ">1-On-1 Consulting</h1>
                                    <p className=" text-lg font-normal my-2">Are you looking for a review and guidelines on how you can boost up your online portfolio? Book a 1-on-1 call with us to get started.</p>
-                              </div>
+                              </div> */}
                          </div>
                     </div>
                </Container>
