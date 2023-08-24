@@ -12,10 +12,11 @@ const MyTime = () => {
 
                <Container>
                     <div className=" grid md:grid-cols-3 gap-4">
-                         <div className=" p-4  MyTeamshadew border  border-[#69686846]">
+                         <div data-aos="fade-right"
+                              data-aos-offset="300"
+                              data-aos-easing="ease-in-sine" className=" p-4  MyTeamshadew border  border-[#69686846]">
                               <h1 className=" text-2xl font-medium my-3"> Name : m belal hussain</h1>
                               <h2 className=" text-xl font-medium mt-3   capitalize"> Address : sylhet, Bangladesh </h2>
-                              <h2 className=" text-xl font-medium mt-3   lowercase"> Email : Mbelalhusseini@gmail.com </h2>
                               <h2 className=" text-xl font-medium mt-3   capitalize"> Experience : 3 year
 
                               </h2>
@@ -49,10 +50,11 @@ const MyTime = () => {
 
                               </div>
                          </div>
-                         <div className=" p-4  MyTeamshadew border  border-[#69686846]">
+                         <div data-aos="fade-up"
+                              data-aos-duration="3000" className=" p-4  MyTeamshadew border  border-[#69686846]">
                               <h1 className=" text-2xl font-medium my-3"> Name : Md: Ariful Islam</h1>
                               <h2 className=" text-xl font-medium mt-3   capitalize"> Address : rangpur, Bangladesh </h2>
-                              <h2 className=" text-xl font-medium mt-3   lowercase"> Email :amdarifulislam337@gmail.com</h2>
+
                               <h2 className=" text-xl font-medium mt-3   capitalize"> Experience : 3 year
 
                               </h2>
@@ -82,10 +84,12 @@ const MyTime = () => {
                                    </div>
                               </div>
                          </div>
-                         <div className=" p-4  MyTeamshadew border  border-[#69686846]">
+                         <div data-aos="fade-down"
+                              data-aos-easing="linear"
+                              data-aos-duration="1500" className=" p-4  MyTeamshadew border  border-[#69686846]">
                               <h1 className=" text-2xl font-medium my-3"> Name : Md: Abul  Bashar</h1>
                               <h2 className=" text-xl font-medium mt-3   capitalize"> Address : Rangpur, Bangladesh </h2>
-                              <h2 className=" text-xl font-medium mt-3   lowercase"> Email : mdbashars999@gmail.com </h2>
+
                               <h2 className=" text-xl font-medium mt-3   capitalize"> Experience : 3 year
 
                               </h2>
@@ -129,11 +133,10 @@ const MyTime = () => {
 
                     </div>
 
-                    <div className=" flex  mt-10 justify-center items-center gap-2">
+                    <div data-aos="zoom-out-up" className=" flex  mt-10 justify-center items-center gap-2">
                          <div className=" p-4  MyTeamshadew border md:w-1/3  border-[#69686846]">
                               <h1 className=" text-2xl font-medium my-3"> Name: Md mostakim</h1>
                               <h2 className=" text-xl font-medium mt-3   capitalize"> Address : Rangpur, Bangladesh </h2>
-                              <h2 className=" text-xl font-medium mt-3    lowercase"> Email : mdmostakim199997@gmal.com </h2>
                               <h2 className=" text-xl font-medium mt-3   capitalize"> Experience : 3 year
 
                               </h2>

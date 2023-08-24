@@ -8,8 +8,8 @@ const MyDeatils = () => {
                <div>
                     <div className=" fontfamily grid md:grid-cols-2   mb-4 md:h-[80vh]  items-center ">
 
-                         <div data-aos="fade-left" className=" boxshawdow  p-3 rounded-lg">
-                              <img className=" object-cover  w-full  p-5  h-[60vh] " src="https://i.ibb.co/D7ZNsvq/368135091-172460805802973-8844006643722392743-n-1.jpg" alt="" />
+                         <div data-aos="fade-left" className=" boxshawdow h-[60vh]  overflow-hidden  p-3 rounded-lg">
+                              <img className=" object-cover  w-full  p-5  h-[60vh]  hover:scale-125 " src="https://i.ibb.co/D7ZNsvq/368135091-172460805802973-8844006643722392743-n-1.jpg" alt="" />
                          </div>
                          <div data-aos="fade-right" className="  p-3 space-y-2 ">
                               <h3 className="  text-[#673ea4]  text-3xl font-medium"> WELCOME TO MY  PORTFOLIO  </h3>

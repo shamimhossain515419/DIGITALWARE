@@ -14,7 +14,7 @@ const Accordions = ({ items }) => {
       {items.map((item, index) => (
         <div
           key={index}
-          className="border-2 rounded-1 "
+          className="border-2 p-2 rounded-1 "
         >
           <button
             className={`w-full ${openIndex==index? "bg-[#2a5e77] text-white" : ""}  flex items-center gap-4  text-start text-[#95A0FF] text-xl  px-4 py-2 focus:outline-none`}
@@ -26,7 +26,7 @@ const Accordions = ({ items }) => {
              <span> {item.title}</span>
           </button>
           {openIndex === index && (
-            <div className="p-4 text-lg duration-300">{item.content}</div>
+            <div className="  mb-4  py-4 text-lg duration-300">{item.content}</div>
           )}
         </div>
       ))}

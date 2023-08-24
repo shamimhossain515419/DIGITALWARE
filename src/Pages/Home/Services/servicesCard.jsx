@@ -9,7 +9,8 @@ const ServicesCard = ({ Card }) => {
        setOpen(true)
      }
      return (
-          <div>
+          <div data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
                <div>
                     <Icon className=" block text-center mx-auto text-[#95A0FF]" size={45}></Icon>
                     <h1 className="  capitalize text-3xl  text-[#95A0FF] my-5 font-semibold  "> {title}</h1>
