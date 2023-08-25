@@ -11,7 +11,7 @@ const Banner = () => {
                               <button className=" bg-[#66AEFF] px-4 py-1 rounded-lg  my-6 leading-8"> Digital Marketing</button>
                               <div>
                                    <h1 className="    leading-tight   text-2xl md:text-5xl font-bold my-2 ">
-                                        Digital Marketing
+                                        Digital Marketing  
 
                                         Empower Your Online Presence on
                                         YouTube & TikTok!</h1>

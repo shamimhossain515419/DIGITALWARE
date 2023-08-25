@@ -20,7 +20,7 @@ const MyTime = () => {
                               <h2 className=" text-xl font-medium mt-3   capitalize"> Experience : 3 year
 
                               </h2>
-                              <h2 className=" text-xl font-medium mt-3   capitalize">Contact number : +971563200322 </h2>
+
                               <div>
                                    <h1 className=" text-3xl font-bold my-2">Skills:  </h1>
                                    <div className=" flex items-center gap-2 ">
@@ -58,7 +58,7 @@ const MyTime = () => {
                               <h2 className=" text-xl font-medium mt-3   capitalize"> Experience : 3 year
 
                               </h2>
-                              <h2 className=" text-xl font-medium mt-3   capitalize">Contact number : 01730669708 </h2>
+
                               <div>
                                    <h1 className=" text-3xl font-bold my-2">Skills:  </h1>
                                    <div className=" flex items-center gap-2 ">
@@ -93,7 +93,7 @@ const MyTime = () => {
                               <h2 className=" text-xl font-medium mt-3   capitalize"> Experience : 3 year
 
                               </h2>
-                              <h2 className=" text-xl font-medium mt-3   capitalize">Contact number : 01735064205 </h2>
+
                               <div>
                                    <h1 className=" text-3xl font-bold my-2">Skills:  </h1>
                                    <div className=" flex items-center gap-2 ">
@@ -140,7 +140,7 @@ const MyTime = () => {
                               <h2 className=" text-xl font-medium mt-3   capitalize"> Experience : 3 year
 
                               </h2>
-                              <h2 className=" text-xl font-medium mt-3   capitalize">Contact number : 01886030286 </h2>
+
                               <div>
                                    <h1 className=" text-3xl font-bold my-2">Skills:  </h1>
                                    <div className=" flex items-center gap-2 ">

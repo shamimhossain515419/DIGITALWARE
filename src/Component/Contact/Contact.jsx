@@ -1,33 +1,32 @@
 import { AiFillLinkedin } from "react-icons/ai";
-
-
 import './Contact.css'
 import { Link } from "react-router-dom";
-import { BsFacebook, BsInstagram, BsPinterest } from "react-icons/bs";
+import { BsFacebook, BsPinterest } from "react-icons/bs";
 import { useRef } from "react";
-
+import emailjs from '@emailjs/browser';
 import Swal from "sweetalert2";
 import Container from "../Contaner";
+import handshake from '../../../public/handshake_1155-35.avif';
 const Contact = () => {
      const form = useRef();
      const sendEmail = (e) => {
-          // e.preventDefault();
-
-          // const from = e.target;
-          // emailjs.sendForm('service_4upm03s', 'template_chiautz', form.current, 'gTkzVf4IG7hauN8Xt')
-          //      .then((result) => {
-          //           console.log(result.text);
-          //           from.reset();
-          //           Swal.fire({
-          //                position: 'top-end',
-          //                icon: 'success',
-          //                title: 'Your work has been saved',
-          //                showConfirmButton: false,
-          //                timer: 1500
-          //           })
-          //      }, (error) => {
-          //           console.log(error.text);
-          //      });
+          e.preventDefault();
+          
+          const from = e.target;
+          emailjs.sendForm('service_tou3l4d', 'template_txg3q8f', form.current, 'WmKQKwV8bSip_wdcM')
+               .then((result) => {
+                    console.log(result.text);
+                    from.reset();
+                    Swal.fire({
+                         position: 'top-end',
+                         icon: 'success',
+                         title: 'Your work has been saved',
+                         showConfirmButton: false,
+                         timer: 1500
+                    })
+               }, (error) => {
+                    console.log(error.text);
+               });
      };
 
 
@@ -42,7 +41,7 @@ const Contact = () => {
                          <div data-aos="fade-up"
                               data-aos-anchor-placement="center-bottom" className=" fontRoboto contactshadow col-span-2 rounded-2xl">
                               <div className=" p-2  ">
-                                   <img className=" w-full h-70 object-cover" src="https://img.freepik.com/free-photo/two-confident-business-man-shaking-hands-during-meeting-office-success-dealing-greeting-partner-concept_1423-185.jpg?w=1380&t=st=1692814252~exp=1692814852~hmac=0701c5a52bc1fe0246841af029f4bc68568b617548e4ba9a3577cf59719ba60e" alt="" />
+                                   <img className=" w-full h-70 object-cover" src={handshake} alt="" />
                                    <div className=" space-y-2 p-3">
                                         <h2 className=" text-3xl  font-medium "> Digital Marketer</h2>
                                         <p className="   text-xl leading-8"> I am available for freelance work. <br /> Connect with me via and call in to my account.</p>
@@ -75,7 +74,7 @@ const Contact = () => {
                                              </div>
                                              <div className="  w-full ">
                                                   <label htmlFor="Last Name" className=" uppercase text-sm font-normal "> Last Name</label>
-                                                  <input type="text " required className=" inpputbox w-full border-none outline-none my-2 bg-[#191B1E] px-4 py-2  rounded-lg text-white text-xl font-normal " name="" id="" />
+                                                  <input type="text " required className=" inpputbox w-full border-none outline-none my-2 bg-[#191B1E] px-4 py-2  rounded-lg text-white text-xl font-normal " name="from-subject" id="" />
                                              </div>
                                         </div>
                                         <div className="  w-full ">
